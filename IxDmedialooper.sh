@@ -59,7 +59,7 @@ SIGINT
 
 fi
 done
-'EOF'
+EOF
 
 # changing the file to EXECUTABLE
 
