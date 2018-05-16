@@ -106,7 +106,7 @@ cd ~/.config/lxsession/LXDE-pi/
 sed -i '/^@pcmanfm/a @lxterminal -e /home/pi/IxD/loopplaylist.sh' autostart
 
 cd ~/OMXLoopPlaylist
-mv your_logo.jpg ~/IxD your_logo.jpg
+mv your_logo.jpg ~/IxD/your_logo.jpg
 
 echo "And it's that easy"
 echo "Just load videos into /home/pi/Videos and reboot"
