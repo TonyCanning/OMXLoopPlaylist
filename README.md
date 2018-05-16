@@ -34,4 +34,6 @@ And that's that...
 # Removal
 `cd IxD`
 
+`sudo chmod +x removeIxD.sh`
+
 `sh removeIxD.sh`
