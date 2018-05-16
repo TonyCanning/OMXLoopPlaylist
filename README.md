@@ -12,7 +12,10 @@ It's written and tested on Raspberry Pi though I expect it will work on any Debi
 
 * Creates a desktop launcher if you want to run it from there instead of running at boot
 
+* Creates a backup of /home/pi/.config/lxsession/LXDE-pi/autostart which is restored if you remove using removeIxD.sh script
+
 * Inserts a line into /home/pi/.config/lxsession/LXDE-pi/autostart to start omxplayer looping
+
 
 ## To install, open terminal and:
 
@@ -24,6 +27,11 @@ It's written and tested on Raspberry Pi though I expect it will work on any Debi
 
 `sudo chmod +x IxDmedialooper.sh`
 
-`./IxDmedialooper.sh`
+`sh IxDmedialooper.sh`
 
-And that's that - Enjoy!
+And that's that...
+
+# Removal
+`cd IxD`
+
+`sh removeIxD.sh`
