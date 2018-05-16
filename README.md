@@ -11,7 +11,9 @@ Creates a desktop launcher if you want to run it from there instead of running a
 Inserts a line into /home/pi/.config/lxsession/LXDE-pi/autostart to start omxplayer looping
 
 To install, open terminal and:
+
 sudo apt-get install -y git (though you probably have that if you're here)
 git clone https://github.com/TonyCanning/OMXLoopPlaylist.git
 cd OMXLoopPlaylist
-sudo chmod +x 
+sudo chmod +x IxDmedialooper.sh
+./IxDmedialooper.sh
