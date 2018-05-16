@@ -32,7 +32,7 @@ mkdir IxD
 cd IxD
 
 # Creating a script which will run the looping playlist in OMXPlayer
-
+cat <<EOF > loopplaylist.sh
 #!/bin/sh
 
 trap exit 1 SIGINT SIGKILL SIGTERM
@@ -59,6 +59,7 @@ SIGINT
 
 fi
 done
+EOF
 
 # changing the file to EXECUTABLE
 
